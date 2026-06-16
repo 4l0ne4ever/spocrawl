@@ -106,6 +106,39 @@ MOOD_EXTRA_TRACK_QUERIES: dict[str, list[str]] = {
     ],
 }
 
+MOOD_SUPPLEMENT_QUERIES: dict[str, list[str]] = {
+    "stressed": [
+        "anxiety relief music",
+        "burnout recovery playlist",
+        "nhạc thư giãn căng thẳng",
+        "overwhelmed calm songs",
+        "stress relief piano",
+        "tension release instrumental",
+        "mental health chill",
+        "genre:ambient anxiety",
+    ],
+    "romantic": [
+        "slow dance love songs",
+        "anniversary playlist",
+        "nhạc tình yêu lãng mạn",
+        "first dance wedding",
+        "genre:r-n-b romance",
+        "acoustic love ballads",
+        "late night love",
+        "valentine playlist",
+    ],
+    "energetic": [
+        "pre workout hype",
+        "hiit cardio playlist",
+        "nhạc tập gym năng lượng",
+        "boxing training music",
+        "genre:drum and bass workout",
+        "morning energy boost",
+        "powerlifting motivation",
+        "dance workout hits",
+    ],
+}
+
 # Per-track search queries (playlist-style + genre/year queries)
 MOOD_SEARCH_QUERIES: dict[str, list[str]] = {
     mood: (
